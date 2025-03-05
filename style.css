@@ -1,0 +1,49 @@
+* {
+        background-color: aliceblue;
+    }
+
+    h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .container_comparar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        padding: 2%;
+    }
+
+    label {
+        font-size: 1.3rem;
+        font-family: sans-serif;
+    }
+
+    input {
+        font-size: 1.2rem;
+        width: 10%;
+        text-align: center;
+        border: 1px solid black;
+    }
+
+    button{
+        font-size: 1.5rem;
+        background-color: rgba(128, 255, 0, 0.432);
+        padding: 0.2rem;
+    }
+    button:hover{
+        background-color: rgba(128, 255, 0, 0.918);
+        cursor: pointer;
+    }
+
+    .container_resultado {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+        font-size: 2rem;
+        color: blue;
+    }
